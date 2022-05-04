@@ -2,10 +2,13 @@
 
 我的NeoVim配置文件
 
+使用`Packer`进行插件管理，需要提前下载(`AUR`中有软件包`nvim-packer-git`可以直接使用)
+
 # LSP
 
 支持以下语言,
-自动下载language server
+
+支持自动下载language server
 
 ```
 rust
