@@ -15,6 +15,7 @@ rust
 python
 cpp
 lua
+bash
 ```
 
 # DAP
