@@ -3,5 +3,5 @@
 添加`bash`LSP支持: `bashls`.
 添加`bash` ftplugin
 
-2022/05/06
+2022/05/08
 因为Telescope删除了code action接口, 改为使用原生code action
