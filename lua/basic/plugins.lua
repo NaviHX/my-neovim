@@ -148,6 +148,14 @@ packer.startup(
                 end
             }
 
+            -- format
+            use {
+                "sbdchd/neoformat",
+                config = function()
+                    require("conf.neoformat")
+                end
+            }
+
 
             ----- LSP -----
             -- LSP 基础服务
