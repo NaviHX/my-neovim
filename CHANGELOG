@@ -5,3 +5,6 @@
 
 2022/05/08
 因为Telescope删除了code action接口, 改为使用原生code action
+
+2022/05/09
+添加条件断点, 绑定为'<leader>dcb'
