@@ -10,4 +10,4 @@
 添加条件断点, 绑定为'<leader>dcb'
 修改内置终端高度为15(因为我的窗口高度为41, 6略低)
 更改了lightbulb的图标(Hack 没有bulb)
-添加了格式化快捷键`<leader>nf`, 需要手动安装formatter
+添加了格式化快捷键`<leader>cf`, 需要手动安装formatter

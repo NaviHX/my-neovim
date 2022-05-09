@@ -11,4 +11,4 @@ vim.g.neoformat_basic_format_retab = 0
 -- 只提示错误消息
 vim.g.neoformat_only_msg_on_error = 1
 
-vim.keybinds.gmap("n", "<leader>nf", "<cmd>Neoformat<CR>", vim.keybinds.opts)
+vim.keybinds.gmap("n", "<leader>cf", "<cmd>Neoformat<CR>", vim.keybinds.opts)
