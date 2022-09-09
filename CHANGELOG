@@ -16,3 +16,6 @@
 添加新的lsp支持: `haskell`, `texlab`
 更新插件设置
 
+2022/09/09
+添加新插件: `nvim-surround`, 用于添加括号
+

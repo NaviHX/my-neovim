@@ -28,6 +28,15 @@ packer.startup(
                 end
             }
 
+            -- nvim-surround
+            use {
+                "kylechui/nvim-surround",
+                tag = "*",
+                config = function()
+                    require("conf.nvim-surround")
+                end
+            }
+
             -- tokyonight主题
             use {
                 "folke/tokyonight.nvim",
