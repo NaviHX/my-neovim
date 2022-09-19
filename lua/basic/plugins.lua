@@ -106,12 +106,12 @@ packer.startup(
             }
 
             -- 显示滚动条
-            use {
-                "petertriho/nvim-scrollbar",
-                config = function()
-                    require("conf.nvim-scrollbar")
-                end
-            }
+            -- use {
+                -- "petertriho/nvim-scrollbar",
+                -- config = function()
+                    -- require("conf.nvim-scrollbar")
+                -- end
+            -- }
 
             use {
                 "Pocco81/AutoSave.nvim",
