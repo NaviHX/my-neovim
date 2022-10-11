@@ -37,6 +37,14 @@ packer.startup(
                 end
             }
 
+            -- Comment.nvim
+            use {
+                'numToStr/Comment.nvim',
+                config = function()
+                    require('conf.Comment')
+                end
+            }
+
             -- tokyonight主题
             use {
                 "folke/tokyonight.nvim",
@@ -114,9 +122,9 @@ packer.startup(
             -- }
 
             use {
-                "Pocco81/AutoSave.nvim",
+                "Pocco81/auto-save.nvim",
                 config = function()
-                    require("conf.AutoSave")
+                    require("conf.auto-save")
                 end
             }
 
