@@ -28,6 +28,14 @@ packer.startup(
                 end
             }
 
+            -- symbols-outline.nvim
+            use {
+                'simrat39/symbols-outline.nvim',
+                config = function()
+                    require("conf.symbols-outline")
+                end
+            }
+
             -- nvim-surround
             use {
                 "kylechui/nvim-surround",
