@@ -26,3 +26,6 @@
 修改报错, 去掉了警告
 添加新插件: `comment.nvim`
 
+2022/10/14
+添加新插件: `symbols-outline.nvim`
+
