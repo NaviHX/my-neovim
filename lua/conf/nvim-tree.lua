@@ -1,6 +1,7 @@
 -- https://github.com/kyazdani42/nvim-tree.lua
 require("nvim-tree").setup(
     {
+        open_on_setup = true,
         -- 自动关闭
         -- auto_close = true,
         -- 视图
