@@ -33,3 +33,6 @@
 修复主题设置
 修复nvim tree设置
 
+2022/10/18
+修复了nvim lsp installer报错
+
